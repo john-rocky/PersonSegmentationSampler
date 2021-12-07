@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		730D9922276002A70034CEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9921276002A70034CEFD /* AppDelegate.swift */; };
 		730D9924276002A70034CEFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9923276002A70034CEFD /* SceneDelegate.swift */; };
-		730D9926276002A70034CEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9925276002A70034CEFD /* ViewController.swift */; };
 		730D9929276002A70034CEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730D9927276002A70034CEFD /* Main.storyboard */; };
 		730D992B276002AD0034CEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730D992A276002AD0034CEFD /* Assets.xcassets */; };
 		730D992E276002AD0034CEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730D992C276002AD0034CEFD /* LaunchScreen.storyboard */; };
 		730D9939276002AE0034CEFD /* PersonSegmentationSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9938276002AE0034CEFD /* PersonSegmentationSamplerTests.swift */; };
 		730D9943276002AE0034CEFD /* PersonSegmentationSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9942276002AE0034CEFD /* PersonSegmentationSamplerUITests.swift */; };
 		730D9945276002AE0034CEFD /* PersonSegmentationSamplerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9944276002AE0034CEFD /* PersonSegmentationSamplerUITestsLaunchTests.swift */; };
+		730D9953276003070034CEFD /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9951276003070034CEFD /* EditViewController.swift */; };
+		730D9954276003070034CEFD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9952276003070034CEFD /* CameraViewController.swift */; };
+		730D99562760031F0034CEFD /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D99552760031F0034CEFD /* PreviewView.swift */; };
+		730D9958276003260034CEFD /* SavingNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D9957276003260034CEFD /* SavingNoticeViewController.swift */; };
+		730D995A2760034C0034CEFD /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D99592760034C0034CEFD /* Buttons.swift */; };
+		730D995C276003560034CEFD /* BlurExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D995B276003560034CEFD /* BlurExtension.swift */; };
+		730D995E2760037E0034CEFD /* FiltersReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D995D2760037E0034CEFD /* FiltersReference.swift */; };
+		730D9960276003AB0034CEFD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D995F276003AB0034CEFD /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		730D991E276002A70034CEFD /* PersonSegmentationSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonSegmentationSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730D9921276002A70034CEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730D9923276002A70034CEFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		730D9925276002A70034CEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		730D9928276002A70034CEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		730D992A276002AD0034CEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730D992D276002AD0034CEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		730D993E276002AE0034CEFD /* PersonSegmentationSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonSegmentationSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730D9942276002AE0034CEFD /* PersonSegmentationSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSegmentationSamplerUITests.swift; sourceTree = "<group>"; };
 		730D9944276002AE0034CEFD /* PersonSegmentationSamplerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSegmentationSamplerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		730D9951276003070034CEFD /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		730D9952276003070034CEFD /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		730D99552760031F0034CEFD /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		730D9957276003260034CEFD /* SavingNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavingNoticeViewController.swift; sourceTree = "<group>"; };
+		730D99592760034C0034CEFD /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		730D995B276003560034CEFD /* BlurExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurExtension.swift; sourceTree = "<group>"; };
+		730D995D2760037E0034CEFD /* FiltersReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersReference.swift; sourceTree = "<group>"; };
+		730D995F276003AB0034CEFD /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +115,14 @@
 			children = (
 				730D9921276002A70034CEFD /* AppDelegate.swift */,
 				730D9923276002A70034CEFD /* SceneDelegate.swift */,
-				730D9925276002A70034CEFD /* ViewController.swift */,
+				730D995F276003AB0034CEFD /* Helper.swift */,
+				730D995D2760037E0034CEFD /* FiltersReference.swift */,
+				730D995B276003560034CEFD /* BlurExtension.swift */,
+				730D99592760034C0034CEFD /* Buttons.swift */,
+				730D9952276003070034CEFD /* CameraViewController.swift */,
+				730D9951276003070034CEFD /* EditViewController.swift */,
+				730D9957276003260034CEFD /* SavingNoticeViewController.swift */,
+				730D99552760031F0034CEFD /* PreviewView.swift */,
 				730D9927276002A70034CEFD /* Main.storyboard */,
 				730D992A276002AD0034CEFD /* Assets.xcassets */,
 				730D992C276002AD0034CEFD /* LaunchScreen.storyboard */,
@@ -258,9 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				730D9926276002A70034CEFD /* ViewController.swift in Sources */,
+				730D995C276003560034CEFD /* BlurExtension.swift in Sources */,
+				730D9958276003260034CEFD /* SavingNoticeViewController.swift in Sources */,
+				730D9953276003070034CEFD /* EditViewController.swift in Sources */,
+				730D9954276003070034CEFD /* CameraViewController.swift in Sources */,
+				730D9960276003AB0034CEFD /* Helper.swift in Sources */,
+				730D995E2760037E0034CEFD /* FiltersReference.swift in Sources */,
 				730D9922276002A70034CEFD /* AppDelegate.swift in Sources */,
 				730D9924276002A70034CEFD /* SceneDelegate.swift in Sources */,
+				730D99562760031F0034CEFD /* PreviewView.swift in Sources */,
+				730D995A2760034C0034CEFD /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +470,9 @@
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonSegmentationSampler/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +501,9 @@
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonSegmentationSampler/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
