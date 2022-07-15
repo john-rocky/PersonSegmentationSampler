@@ -16,7 +16,6 @@
 
 ### Person Image Composite
 
-<img src="https://user-images.githubusercontent.com/23278992/145123685-cda93340-7407-483e-9929-e29ca1174545.gif" width=200>
 
 ### Blur
 
